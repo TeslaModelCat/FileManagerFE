@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering renders correctly 1`] = `
+<Memo(wrappedComponent)>
+  <div
+    className="col"
+  >
+    <div
+      className="files-title"
+    >
+      Files Dashboard
+    </div>
+    <input
+      onChange={[Function]}
+      style={
+        Object {
+          "height": 0,
+          "width": 0,
+        }
+      }
+      type="file"
+    />
+    <div
+      className="files-container"
+    >
+      <FileCard
+        file={
+          Object {
+            "_id": "as5d4a5sd5a",
+            "name": "name",
+            "size": "21 Mb",
+            "url": "url",
+          }
+        }
+        key="as5d4a5sd5a"
+        onDelete={[Function]}
+      >
+        <div
+          className="file-card"
+        >
+          <div
+            className="file-name"
+          >
+            <a
+              download="name"
+              href="data:,url"
+              rel="noreferrer"
+              target="_blank"
+            >
+              name
+            </a>
+          </div>
+          <div
+            className="small-cell"
+          >
+            21 Mb
+          </div>
+          <div
+            className="small-cell"
+          >
+            <WithStyles(ForwardRef(IconButton))
+              onClick={[Function]}
+              type="button"
+            >
+              <ForwardRef(IconButton)
+                classes={
+                  Object {
+                    "colorInherit": "MuiIconButton-colorInherit",
+                    "colorPrimary": "MuiIconButton-colorPrimary",
+                    "colorSecondary": "MuiIconButton-colorSecondary",
+                    "disabled": "Mui-disabled",
+                    "edgeEnd": "MuiIconButton-edgeEnd",
+                    "edgeStart": "MuiIconButton-edgeStart",
+                    "label": "MuiIconButton-label",
+                    "root": "MuiIconButton-root",
+                    "sizeSmall": "MuiIconButton-sizeSmall",
+                  }
+                }
+                onClick={[Function]}
+                type="button"
+              >
+                <WithStyles(ForwardRef(ButtonBase))
+                  centerRipple={true}
+                  className="MuiIconButton-root"
+                  disabled={false}
+                  focusRipple={true}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <ForwardRef(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root"
+                    classes={
+                      Object {
+                        "disabled": "Mui-disabled",
+                        "focusVisible": "Mui-focusVisible",
+                        "root": "MuiButtonBase-root",
+                      }
+                    }
+                    disabled={false}
+                    focusRipple={true}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <button
+                      className="MuiButtonBase-root MuiIconButton-root"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label"
+                      >
+                        <ForwardRef(DeleteIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(DeleteIcon)>
+                      </span>
+                      <WithStyles(memo)
+                        center={true}
+                      >
+                        <ForwardRef(TouchRipple)
+                          center={true}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child",
+                              "childLeaving": "MuiTouchRipple-childLeaving",
+                              "childPulsate": "MuiTouchRipple-childPulsate",
+                              "ripple": "MuiTouchRipple-ripple",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                              "root": "MuiTouchRipple-root",
+                            }
+                          }
+                        >
+                          <span
+                            className="MuiTouchRipple-root"
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              component={null}
+                              exit={true}
+                            />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(memo)>
+                    </button>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+              </ForwardRef(IconButton)>
+            </WithStyles(ForwardRef(IconButton))>
+          </div>
+        </div>
+      </FileCard>
+    </div>
+    <button
+      className="add-file-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Upload file
+    </button>
+  </div>
+</Memo(wrappedComponent)>
+`;

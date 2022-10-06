@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering renders correctly 1`] = `
+<NotificationsPopup>
+  <WithStyles(ForwardRef(IconButton))
+    aria-haspopup="true"
+    aria-label="Uploads"
+    className="icon-btn"
+    onClick={[Function]}
+  >
+    <ForwardRef(IconButton)
+      aria-haspopup="true"
+      aria-label="Uploads"
+      className="icon-btn"
+      classes={
+        Object {
+          "colorInherit": "MuiIconButton-colorInherit",
+          "colorPrimary": "MuiIconButton-colorPrimary",
+          "colorSecondary": "MuiIconButton-colorSecondary",
+          "disabled": "Mui-disabled",
+          "edgeEnd": "MuiIconButton-edgeEnd",
+          "edgeStart": "MuiIconButton-edgeStart",
+          "label": "MuiIconButton-label",
+          "root": "MuiIconButton-root",
+          "sizeSmall": "MuiIconButton-sizeSmall",
+        }
+      }
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(ButtonBase))
+        aria-haspopup="true"
+        aria-label="Uploads"
+        centerRipple={true}
+        className="MuiIconButton-root icon-btn"
+        disabled={false}
+        focusRipple={true}
+        onClick={[Function]}
+      >
+        <ForwardRef(ButtonBase)
+          aria-haspopup="true"
+          aria-label="Uploads"
+          centerRipple={true}
+          className="MuiIconButton-root icon-btn"
+          classes={
+            Object {
+              "disabled": "Mui-disabled",
+              "focusVisible": "Mui-focusVisible",
+              "root": "MuiButtonBase-root",
+            }
+          }
+          disabled={false}
+          focusRipple={true}
+          onClick={[Function]}
+        >
+          <button
+            aria-haspopup="true"
+            aria-label="Uploads"
+            className="MuiButtonBase-root MuiIconButton-root icon-btn"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiIconButton-label"
+            >
+              <ForwardRef(NotificationsIcon)
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                <WithStyles(ForwardRef(SvgIcon))
+                  style={
+                    Object {
+                      "color": "white",
+                    }
+                  }
+                >
+                  <ForwardRef(SvgIcon)
+                    classes={
+                      Object {
+                        "colorAction": "MuiSvgIcon-colorAction",
+                        "colorDisabled": "MuiSvgIcon-colorDisabled",
+                        "colorError": "MuiSvgIcon-colorError",
+                        "colorPrimary": "MuiSvgIcon-colorPrimary",
+                        "colorSecondary": "MuiSvgIcon-colorSecondary",
+                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                        "root": "MuiSvgIcon-root",
+                      }
+                    }
+                    style={
+                      Object {
+                        "color": "white",
+                      }
+                    }
+                  >
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root"
+                      focusable="false"
+                      style={
+                        Object {
+                          "color": "white",
+                        }
+                      }
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"
+                      />
+                    </svg>
+                  </ForwardRef(SvgIcon)>
+                </WithStyles(ForwardRef(SvgIcon))>
+              </ForwardRef(NotificationsIcon)>
+              <div
+                className="counter"
+              >
+                1
+              </div>
+            </span>
+            <WithStyles(memo)
+              center={true}
+            >
+              <ForwardRef(TouchRipple)
+                center={true}
+                classes={
+                  Object {
+                    "child": "MuiTouchRipple-child",
+                    "childLeaving": "MuiTouchRipple-childLeaving",
+                    "childPulsate": "MuiTouchRipple-childPulsate",
+                    "ripple": "MuiTouchRipple-ripple",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                    "root": "MuiTouchRipple-root",
+                  }
+                }
+              >
+                <span
+                  className="MuiTouchRipple-root"
+                >
+                  <TransitionGroup
+                    childFactory={[Function]}
+                    component={null}
+                    exit={true}
+                  />
+                </span>
+              </ForwardRef(TouchRipple)>
+            </WithStyles(memo)>
+          </button>
+        </ForwardRef(ButtonBase)>
+      </WithStyles(ForwardRef(ButtonBase))>
+    </ForwardRef(IconButton)>
+  </WithStyles(ForwardRef(IconButton))>
+  <ForwardRef(Popper)
+    anchorEl={null}
+    disablePortal={true}
+    open={false}
+    placement="bottom-end"
+    style={
+      Object {
+        "zIndex": 1100,
+      }
+    }
+    transition={true}
+  />
+</NotificationsPopup>
+`;

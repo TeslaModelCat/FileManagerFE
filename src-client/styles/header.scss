@@ -1,0 +1,19 @@
+.buttons-container {
+  width: 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.authorized {
+  justify-content: space-between;
+  align-items: center;
+
+  .user {
+    height: 100%;
+  }
+
+  .buttons-container {
+    width: auto;
+  }
+}

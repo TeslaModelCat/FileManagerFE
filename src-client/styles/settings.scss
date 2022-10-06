@@ -1,0 +1,16 @@
+.settings-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+
+  .save-button {
+    border: 1px solid #c9c9c9;
+    background-color: #198754;
+    border-radius: 5px;
+    color: white;
+
+    &:hover {
+      background-color: #19875490;
+    }
+  }
+}

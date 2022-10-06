@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering renders correctly 1`] = `
+<NotificationCard
+  notification={
+    Object {
+      "isRead": false,
+      "type": "file-removed",
+    }
+  }
+>
+  <div
+    className="notification-card unread"
+  >
+    <div
+      className="message"
+    >
+      File removed
+    </div>
+    <div
+      className="marker"
+    />
+  </div>
+</NotificationCard>
+`;

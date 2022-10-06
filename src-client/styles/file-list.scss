@@ -1,0 +1,64 @@
+.files-title {
+  width: 50%;
+  text-align: center;
+  font-size: 3rem;
+  margin: 1rem auto;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.files-container {
+  width: 60%;
+
+  .file-card {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    padding: 15px;
+
+    .file-name {
+      width: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .small-cell {
+      width: 15%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      border-left: 1px solid #c9c9c9;
+
+      button {
+        border: none;
+        background-color: transparent;
+        color: red;
+      }
+    }
+  }
+}
+
+.add-file-button {
+  width: 60%;
+  border: 1px solid #c9c9c9;
+  background-color: white;
+  height: 40px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #c9c9c930;
+  }
+}
